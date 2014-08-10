@@ -10,6 +10,7 @@
 		71D703C4199813BA002D4621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D703C3199813BA002D4621 /* AppDelegate.swift */; };
 		71D703CB199813BA002D4621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D703CA199813BA002D4621 /* Images.xcassets */; };
 		71D703D7199813BA002D4621 /* GitReference_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D703D6199813BA002D4621 /* GitReference_SwiftTests.swift */; };
+		71D703E11998141A002D4621 /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D703E01998141A002D4621 /* ReferenceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		71D703D0199813BA002D4621 /* GitReference-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitReference-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D703D5199813BA002D4621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D703D6199813BA002D4621 /* GitReference_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitReference_SwiftTests.swift; sourceTree = "<group>"; };
+		71D703E01998141A002D4621 /* ReferenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				71D703C3199813BA002D4621 /* AppDelegate.swift */,
+				71D703E01998141A002D4621 /* ReferenceViewController.swift */,
 				71D703CA199813BA002D4621 /* Images.xcassets */,
 				71D703C1199813BA002D4621 /* Supporting Files */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D703E11998141A002D4621 /* ReferenceViewController.swift in Sources */,
 				71D703C4199813BA002D4621 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
